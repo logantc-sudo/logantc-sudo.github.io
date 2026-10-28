@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
   <title>A Little Handier Privacy Policy</title>
   <link rel="canonical" href="https://logantc-sudo.github.io/privacy.html">
-  <meta name="description" content="Privacy and support for A Little Handier, an iPhone guide app published by Logan Wesney.">
+  <meta name="description" content="Privacy and support for A Little Handier, an iPhone guide app.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,12 +19,12 @@
   <main id="main" tabindex="-1">
 <h1 id="a-little-handier-privacy-policy">A Little Handier Privacy Policy</h1>
 <p>Effective date: October 28, 2026</p>
-<p>A Little Handier is published by Logan Wesney. This policy covers the current iPhone TestFlight beta (build 2), this privacy and support website, and optional support correspondence. A future advertising-supported release is described separately below.</p>
-<h2 id="current-iphone-beta-guides-and-local-data">Current iPhone beta: guides and local data</h2>
-<p>The current beta has no accounts, ads, analytics service, or app backend. Guides and photos are included with the app and can be used offline. The app does not upload your guide activity to us.</p>
+<p>This policy covers the iPhone app, including ad-free build 2 and test-ads build 3, this privacy and support website, and optional support correspondence. You can find your app version and build under <strong>Privacy and local data</strong>.</p>
+<h2 id="build-2-and-local-guide-data">Build 2 and local guide data</h2>
+<p>Build 2 has no accounts, ads, analytics service, or app backend. Guides and photos are included with the app and can be used offline. The app does not upload your guide activity to us.</p>
 <p>Your favorites and recent history are stored in local preferences on your device: the identifiers of your favorite guides and your 10 most recently opened guides. These records do not include timestamps or a user identifier. Searches are processed in memory and are not saved. The app does not send these records or search terms to a server or advertising provider.</p>
 <p>In <strong>Privacy and local data</strong>, you can clear favorites or recent history separately. Each action asks for confirmation and can be canceled; clearing one collection preserves the other. If a storage change fails, the app reports it and older data may return when you reopen the app. Device backups or restores may retain or restore copies that these controls do not erase.</p>
-<p>These local-data controls do not delete support emails, TestFlight records, or website-host records. We cannot remotely clear your device&#x27;s local favorites or history.</p>
+<p>These local-data controls do not delete support emails, TestFlight records, or website-host records. In build 3, they also do not change advertising consent or delete advertising-provider records. We cannot remotely clear your device&#x27;s local favorites or history. Build 3 keeps the same local guide storage; the app does not pass favorites, history, search terms, or support email to ad targeting.</p>
 <h2 id="optional-support-email">Optional support email</h2>
 <p>If you email <a href="mailto:alhprocs@gmail.com" rel="noreferrer">alhprocs@gmail.com</a>, we receive your email address, any name you provide, your message, and any attachments you choose to send. We use this information to respond and investigate the issue you report. Our support inbox uses Gmail, provided by Google; your own email provider also processes the correspondence. See <a href="https://policies.google.com/privacy" rel="noreferrer">Google&#x27;s Privacy Policy</a>.</p>
 <p>Support email is optional and separate from the app&#x27;s local storage. The app does not automatically attach your favorites or history. Please do not send passwords or unrelated sensitive information.</p>
@@ -37,15 +37,30 @@
 <h2 id="this-website">This website</h2>
 <p>This privacy and support website is hosted by GitHub Pages. We do not add analytics, advertising scripts, contact forms, or tracking cookies to these pages. GitHub logs and stores visitors&#x27; IP addresses for security purposes, including when visitors are not signed in. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub Privacy Statement</a>.</p>
 <p>Links to other websites are subject to those websites&#x27; privacy practices. Email links open your email app and do not send a message automatically. This website&#x27;s hosting is separate from the native iPhone app&#x27;s local storage.</p>
-<h2 id="planned-advertising-supported-release-not-in-the-current-beta">Planned advertising-supported release — not in the current beta</h2>
-<p>We plan to support the first public release with Google AdMob. Our launch plan is US-only availability for a general audience, not a children&#x27;s app, with nonpersonalized ads, no access to Apple&#x27;s advertising identifier (IDFA), and no tracking-permission prompt. This plan still requires implementation and verification; it does not describe features already present in build 2.</p>
-<p>Nonpersonalized ads are not data-free. Google&#x27;s advertising SDK may process IP addresses and approximate location, device identifiers, ad and app interactions, crash logs, and performance information for advertising, measurement, service improvement, and fraud prevention. See <a href="https://policies.google.com/privacy" rel="noreferrer">Google&#x27;s Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" rel="noreferrer">how Google uses information from apps that use its services</a>.</p>
-<p>Before an ad-enabled version is released, we will update this policy and the App Store privacy disclosures to describe the actual advertising configuration, data practices, and available consent and privacy controls. <strong>The current beta does not contain AdMob or an Ad privacy choices control.</strong></p>
+<h2 id="testflight-build-3-with-test-ads">TestFlight build 3 with test ads</h2>
+<p>Build 3 includes a Google AdMob test banner on the Home screen only, adapting to the available width when the screen layout permits. It uses a Google-provided test ad unit, not production ads. Production advertising remains disabled pending review. These changes are not in build 2.</p>
+<p>Build 3 uses the Google Mobile Ads Flutter plugin 9.2.0, native Google Mobile Ads SDK 13.11.0, and Google User Messaging Platform (UMP) 3.1.0. It requests nonpersonalized ads, disables Google&#x27;s publisher first-party ID, and sets Google&#x27;s maximum ad-content rating to G. No separate analytics SDK or additional advertising network is included. Google&#x27;s advertising SDK can still perform its own analytics. The app does not request Apple&#x27;s tracking permission. These settings do not eliminate all device identifiers or establish that every SDK data flow is free of tracking.</p>
+<p>Test ads use Google&#x27;s advertising SDK and do not establish that no data is processed. Google describes potential SDK processing of:</p>
+<ul>
+<li>IP addresses, which can indicate approximate location.</li>
+<li>Device identifiers, including app- or developer-scoped identifiers.</li>
+<li>Ads shown, ad interactions, and other product interactions such as app launches.</li>
+<li>Crash logs, performance information, and other diagnostic data.</li>
+</ul>
+<p>These data may support advertising, measurement, SDK analytics, service improvement, and fraud prevention. Nonpersonalized ads can still use identifiers and require consent where applicable. See <a href="https://policies.google.com/privacy" rel="noreferrer">Google&#x27;s Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" rel="noreferrer">how Google uses information from apps that use its services</a>.</p>
+<p>The Mobile Ads SDK&#x27;s privacy manifest declares device-identifier data that can be linked to a user and used for tracking. That SDK-level declaration is not, by itself, proof that the current test-ads configuration performs tracking. The build&#x27;s actual data flows and privacy disclosures remain under review; we do not describe this build as collecting no data or using no identifiers.</p>
+<h2 id="consent-and-local-data-choices-in-build-3">Consent and local-data choices in build 3</h2>
+<p>In build 3, the consent check normally starts when the Home screen first becomes eligible to display its banner during an app session. It does not necessarily run immediately at launch. The app refreshes consent information through UMP, presents required messages, and checks whether ads may be requested before initializing the ad service or requesting a banner.</p>
+<p>When required, <strong>Privacy and local data → Ad privacy options</strong> lets you review or change advertising choices. If the check has not made ads ready, <strong>Retry ad privacy check</strong> is available when no check is in progress. It can start the consent check again. Messages and choices can vary by region and settings. These controls are part of build 3, not build 2. On-device checks remain pending as part of Owner Testing.</p>
+<p>UMP also declares approximate-location, performance, and product-interaction data for consent-related app functionality. Its privacy manifest marks those entries as not linked to identity and not used for tracking. UMP is separate from the Mobile Ads SDK, and consent requests can process data even when no banner is displayed.</p>
+<p>Advertising choices are separate from Apple&#x27;s tracking permission and from clearing favorites or recent history. Nonpersonalized requests or the absence of a tracking prompt do not mean no data is collected. Build 3 is designed to keep bundled guides usable offline and when consent or ad loading fails, without requiring agreement to tracking.</p>
+<h2 id="future-public-release">Future public release</h2>
+<p>The first public release is planned for US-only availability and a general audience, not as a children&#x27;s app. Before a public ad-supported release, we will reconcile this policy, support instructions, and applicable App Store privacy disclosures with its verified SDKs and behavior. The test-ads configuration is not confirmation that production ads are enabled or that the final app performs no tracking.</p>
 <h2 id="contact-and-policy-updates">Contact and policy updates</h2>
-<p>For support or privacy questions, contact Logan Wesney at <a href="mailto:alhprocs@gmail.com" rel="noreferrer">alhprocs@gmail.com</a>. Updates to this policy will appear here with a revised effective date.</p>
+<p>For support or privacy questions, contact the app’s publisher at <a href="mailto:alhprocs@gmail.com" rel="noreferrer">alhprocs@gmail.com</a>. Updates to this policy will appear here with a revised effective date.</p>
   </main>
   <footer class="site-footer">
-    <p>A Little Handier · Published by Logan Wesney</p>
+    <p>A Little Handier</p>
     <p><a href="mailto:alhprocs@gmail.com">alhprocs@gmail.com</a></p>
     <p><a href="privacy.html">Privacy Policy</a> <span aria-hidden="true">·</span> <a href="support.html">Support</a></p>
   </footer>
